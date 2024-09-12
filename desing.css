@@ -1,0 +1,83 @@
+body{
+    font-family: 'Times New Roman' , Times , serif;
+    margin: 20px;
+    padding:0;
+    background-color:rgb(236, 223, 230)
+}
+h1{
+    text-align: center;
+    color: rgb(13, 17, 20);
+}
+form{
+    max-width: 500px;
+    margin: auto;
+    background-color: rgb(190, 173, 183);
+    border-radius: 20px;
+    box-shadow:0 4px 8px rgba(121, 19, 92, 0.5);
+    padding: 8px;
+}
+
+fieldset{
+    border: 2px solid #af1c7e;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #eed3e5;
+}
+
+legend{
+    font-weight: bolder;
+    text-align: center;
+    color: #050103;
+}
+lebel{
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(14, 14, 4);
+
+}
+
+input,textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px rgb(122, 66, 113);
+    border-radius: 10px;
+    box-sizing: border-box;
+    }
+
+    button{
+        display:block;
+        width: 500px;
+        padding: 10px;
+        background-color: rgb(129, 91, 124);
+        color: #020808;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    button:hover{
+        background-color: #010202;
+    }
+
+    #resumeoutput{
+       max-width: 500px;
+       margin: auto;
+       padding: 20px;
+       border: 2px solid slategray;
+       border-radius: 10px;
+       background-color:rgb(236, 223, 230) ;
+       box-shadow:0 4px 8px rgba(121, 19, 92, 0.5) ;
+
+    }
+
+    #resumeoutput h2{
+        color: #af1c7e;
+    }
+
+   
